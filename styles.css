@@ -145,7 +145,7 @@ main {
 .main-currency-table .currency-table__title {
   margin-bottom: 15px;
   margin-left: 25px;
-  text-align: left;
+  text-align: center;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
@@ -154,7 +154,7 @@ main {
 .main-commissions-table .commissions-table__title {
   margin-bottom: 15px;
   margin-left: 25px;
-  text-align: left;
+  text-align: center;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
@@ -460,6 +460,7 @@ main {
 footer {
   display: flex;
   width: 100%;
+  min-width: 320px;
   height: 150px;
   background-color: var(--bitcoin-orange);
 }
